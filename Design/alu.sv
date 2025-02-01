@@ -19,12 +19,12 @@ always_comb
 				4'b000x: ALUResult = Sum;				// sum or diff
 				4'b0010: ALUResult = SrcA & SrcB;	// and
 				4'b0011: ALUResult = SrcA | SrcB;	// or
-				4'b0100: ALUResult = SrcA << SrcB;	// sll, slli
+                                4'b0100: ALUResult = SrcA << SrcB[4:0];	// sll, slli
 				4'b0101: ALUResult = {{30{1'b0}}, Overflow ^ Sum[31]}; //slt, slti
 				4'b0110: ALUResult = SrcA ^ SrcB;   // Xor
-				4'b0111: ALUResult = SrcA >> SrcB;  // shift logic
+                                4'b0111: ALUResult = SrcA >> SrcB[4:0];  // shift logic
 				4'b1000: ALUResult = ($unsigned(SrcA) < $unsigned(SrcB)); //sltu, stlui
-				4'b1111: ALUResult = SrcA >>> SrcB; //shift arithmetic
+                                4'b1111: ALUResult = SrcA >>> SrcB[4:0]; //shift arithmetic
 				default: ALUResult = 32'bx;
 		endcase
 

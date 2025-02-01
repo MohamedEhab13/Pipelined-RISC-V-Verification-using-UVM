@@ -4,7 +4,7 @@ module regfile(input logic clk,
 					input logic [31:0] wd3,
 					output logic [31:0] rd1, rd2);
 					
-  bit [31:0] register [31:0]; 	// register file
+  logic [31:0] register [31:0]; 	// register file
 	
 
 	

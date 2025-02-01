@@ -1,0 +1,1148 @@
+Group : $unit::coverage::Registers_cg
+
+===============================================================================
+Group : $unit::coverage::Registers_cg
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home/ICer/Projects/Pipelined_RISC_V/TB/coverage.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::coverage::Registers_cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 95       0         95      100.00  
+
+
+Variables for Group  $unit::coverage::Registers_cg
+
+
+VARIABLE EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+Rs1_cp   32       0         32      100.00  100  1      1        0                    
+Rs2_cp   32       0         32      100.00  100  1      1        0                    
+Rd_cp    31       0         31      100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable Rs1_cp
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 32       0         32      100.00  
+
+
+User Defined Bins for Rs1_cp
+
+
+Bins
+
+NAME   COUNT AT LEAST 
+Rs1_00 1505  1        
+Rs1_01 1481  1        
+Rs1_02 1551  1        
+Rs1_03 1504  1        
+Rs1_04 1517  1        
+Rs1_05 1465  1        
+Rs1_06 1552  1        
+Rs1_07 1562  1        
+Rs1_08 1506  1        
+Rs1_09 1422  1        
+Rs1_0a 1443  1        
+Rs1_0b 1562  1        
+Rs1_0c 1441  1        
+Rs1_0d 1506  1        
+Rs1_0e 1548  1        
+Rs1_0f 1660  1        
+Rs1_10 1598  1        
+Rs1_11 1480  1        
+Rs1_12 1469  1        
+Rs1_13 1444  1        
+Rs1_14 1597  1        
+Rs1_15 1495  1        
+Rs1_16 1466  1        
+Rs1_17 1464  1        
+Rs1_18 1536  1        
+Rs1_19 1472  1        
+Rs1_1a 1360  1        
+Rs1_1b 1425  1        
+Rs1_1c 1395  1        
+Rs1_1d 1493  1        
+Rs1_1e 1499  1        
+Rs1_1f 1521  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable Rs2_cp
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 32       0         32      100.00  
+
+
+User Defined Bins for Rs2_cp
+
+
+Bins
+
+NAME   COUNT AT LEAST 
+Rs2_00 1533  1        
+Rs2_01 1423  1        
+Rs2_02 1476  1        
+Rs2_03 1484  1        
+Rs2_04 1497  1        
+Rs2_05 1320  1        
+Rs2_06 1691  1        
+Rs2_07 1622  1        
+Rs2_08 1455  1        
+Rs2_09 2055  1        
+Rs2_0a 1470  1        
+Rs2_0b 1513  1        
+Rs2_0c 1221  1        
+Rs2_0d 1518  1        
+Rs2_0e 1432  1        
+Rs2_0f 1519  1        
+Rs2_10 1429  1        
+Rs2_11 1565  1        
+Rs2_12 1329  1        
+Rs2_13 1503  1        
+Rs2_14 1613  1        
+Rs2_15 1490  1        
+Rs2_16 1624  1        
+Rs2_17 1435  1        
+Rs2_18 1403  1        
+Rs2_19 1313  1        
+Rs2_1a 1555  1        
+Rs2_1b 1482  1        
+Rs2_1c 1685  1        
+Rs2_1d 1352  1        
+Rs2_1e 1496  1        
+Rs2_1f 1430  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable Rd_cp
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 31       0         31      100.00  
+
+
+User Defined Bins for Rd_cp
+
+
+Bins
+
+NAME  COUNT AT LEAST 
+Rd_01 1565  1        
+Rd_02 1471  1        
+Rd_03 1552  1        
+Rd_04 1648  1        
+Rd_05 1523  1        
+Rd_06 1539  1        
+Rd_07 1497  1        
+Rd_08 1548  1        
+Rd_09 1571  1        
+Rd_0a 1638  1        
+Rd_0b 1550  1        
+Rd_0c 1536  1        
+Rd_0d 1569  1        
+Rd_0e 1630  1        
+Rd_0f 1519  1        
+Rd_10 1537  1        
+Rd_11 1568  1        
+Rd_12 1501  1        
+Rd_13 1524  1        
+Rd_14 1592  1        
+Rd_15 1496  1        
+Rd_16 1584  1        
+Rd_17 1624  1        
+Rd_18 1544  1        
+Rd_19 1489  1        
+Rd_1a 1511  1        
+Rd_1b 1507  1        
+Rd_1c 1530  1        
+Rd_1d 1536  1        
+Rd_1e 1567  1        
+Rd_1f 1477  1        
+
+
+Group : $unit::coverage::Instruction_cg
+
+===============================================================================
+Group : $unit::coverage::Instruction_cg
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home/ICer/Projects/Pipelined_RISC_V/TB/coverage.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::coverage::Instruction_cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 154      0         154     100.00  
+
+
+Variables for Group  $unit::coverage::Instruction_cg
+
+
+VARIABLE              EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+Instructions_cp       28       0         28      100.00  100  1      1        0                    
+Imm_Transitions_cp    20       0         20      100.00  100  1      1        0                    
+Branch_Transitions_cp 60       0         60      100.00  100  1      1        0                    
+Jump_Transitions_cp   29       0         29      100.00  100  1      1        0                    
+SW_Transitions_cp     9        0         9       100.00  100  1      1        0                    
+LW_Transitions_cp     8        0         8       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable Instructions_cp
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 28       0         28      100.00  
+
+
+User Defined Bins for Instructions_cp
+
+
+Excluded/Illegal bins
+
+NAME   COUNT STATUS  
+unknow 0     Illegal 
+
+
+Covered bins
+
+NAME         COUNT AT LEAST 
+Reset_RESET  13    1        
+J_Type_JAL   5629  1        
+S_Type_SW    916   1        
+U_Type_LUI   5532  1        
+U_Type_AUIPC 5189  1        
+B_Type_BEQ   1766  1        
+B_Type_BNE   1710  1        
+B_Type_BLT   1719  1        
+B_Type_BGE   1851  1        
+R_Type_ADD   1297  1        
+R_Type_SUB   1286  1        
+R_Type_SLL   1196  1        
+R_Type_SLT   1217  1        
+R_Type_XOR   1305  1        
+R_Type_SRL   1310  1        
+R_Type_SRA   1270  1        
+R_Type_OR    1211  1        
+R_Type_AND   3     1        
+I_Type_LW    727   1        
+I_Type_ADDI  2736  1        
+I_Type_SLLI  18    1        
+I_Type_SLTI  2752  1        
+I_Type_XORI  2801  1        
+I_Type_SRLI  18    1        
+I_Type_SRAI  18    1        
+I_Type_ORI   2703  1        
+I_Type_ANDI  675   1        
+I_Type_JALR  1075  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable Imm_Transitions_cp
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 20       0         20      100.00  
+
+
+User Defined Bins for Imm_Transitions_cp
+
+
+Bins
+
+NAME                   COUNT AT LEAST 
+I_JR_JR:ADDI->JALR[*2] 39    1        
+I_JR_JR:SLTI->JALR[*2] 22    1        
+I_J_J:ADDI->JAL[*2]    53    1        
+I_J_J:SLTI->JAL[*2]    59    1        
+I_J:ADDI->JAL          157   1        
+I_J:ADDI->JALR         54    1        
+I_J:SLTI->JAL          153   1        
+I_J:SLTI->JALR         39    1        
+I_LW_LW:SLTI->LW[*2]   1     1        
+I_LW:SLTI->LW          36    1        
+I_SW_SW:SLTI->SW[*2]   23    1        
+I_SW:SLTI->SW          38    1        
+I_B:SLTI->BEQ          31    1        
+I_B:SLTI->BNE          33    1        
+I_B:SLTI->BLT          29    1        
+I_B:SLTI->BGE          38    1        
+I_R:SLTI->SLL          236   1        
+I_R:SLTI->SLT          236   1        
+I_R:SRLI->SLL          2     1        
+I_R:SRLI->SLT          2     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable Branch_Transitions_cp
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 60       0         60      100.00  
+
+
+User Defined Bins for Branch_Transitions_cp
+
+
+Bins
+
+NAME                  COUNT AT LEAST 
+B_LW_LW:BEQ->LW[*2]   3     1        
+B_LW_LW:BNE->LW[*2]   1     1        
+B_LW_LW:BLT->LW[*2]   1     1        
+B_LW_LW:BGE->LW[*2]   1     1        
+B_LW:BEQ->LW          41    1        
+B_LW:BNE->LW          30    1        
+B_LW:BLT->LW          29    1        
+B_LW:BGE->LW          35    1        
+B_SW_SW:BEQ->SW[*2]   3     1        
+B_SW_SW:BNE->SW[*2]   5     1        
+B_SW_SW:BLT->SW[*2]   5     1        
+B_SW_SW:BGE->SW[*2]   8     1        
+B_SW:BEQ->SW          30    1        
+B_SW:BNE->SW          31    1        
+B_SW:BLT->SW          32    1        
+B_SW:BGE->SW          41    1        
+B_JR_JR:BEQ->JALR[*2] 25    1        
+B_JR_JR:BNE->JALR[*2] 24    1        
+B_JR_JR:BLT->JALR[*2] 26    1        
+B_JR_JR:BGE->JALR[*2] 34    1        
+B_J_J:BEQ->JAL        270   1        
+B_J_J:BNE->JAL        262   1        
+B_J_J:BLT->JAL        250   1        
+B_J_J:BGE->JAL        305   1        
+B_J:BEQ->JAL          270   1        
+B_J:BEQ->JALR         62    1        
+B_J:BNE->JAL          262   1        
+B_J:BNE->JALR         49    1        
+B_J:BLT->JAL          250   1        
+B_J:BLT->JALR         57    1        
+B_J:BGE->JAL          305   1        
+B_J:BGE->JALR         66    1        
+B_B:BEQ->BEQ          48    1        
+B_B:BEQ->BNE          49    1        
+B_B:BEQ->BLT          47    1        
+B_B:BEQ->BGE          48    1        
+B_B:BNE->BEQ          40    1        
+B_B:BNE->BNE          49    1        
+B_B:BNE->BLT          46    1        
+B_B:BNE->BGE          53    1        
+B_B:BLT->BEQ          47    1        
+B_B:BLT->BNE          47    1        
+B_B:BLT->BLT          38    1        
+B_B:BLT->BGE          60    1        
+B_B:BGE->BEQ          40    1        
+B_B:BGE->BNE          51    1        
+B_B:BGE->BLT          56    1        
+B_B:BGE->BGE          60    1        
+B_R:BEQ->ADD          57    1        
+B_R:BEQ->SLT          69    1        
+B_R:BEQ->SRA          63    1        
+B_R:BNE->ADD          55    1        
+B_R:BNE->SLT          47    1        
+B_R:BNE->SRA          58    1        
+B_R:BLT->ADD          61    1        
+B_R:BLT->SLT          60    1        
+B_R:BLT->SRA          79    1        
+B_R:BGE->ADD          70    1        
+B_R:BGE->SLT          52    1        
+B_R:BGE->SRA          80    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable Jump_Transitions_cp
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 29       0         29      100.00  
+
+
+User Defined Bins for Jump_Transitions_cp
+
+
+Bins
+
+NAME                 COUNT AT LEAST 
+J_LW_LW:JAL->LW[*2]  6     1        
+J_LW:JAL->LW         117   1        
+J_LW:JALR->LW        13    1        
+J_SW_SW:JAL->SW[*2]  5     1        
+J_SW_SW:JALR->SW[*2] 1     1        
+J_SW:JAL->SW         125   1        
+J_SW:JALR->SW        18    1        
+J_B_B:JAL->BEQ[*2]   14    1        
+J_B_B:JAL->BLT[*2]   13    1        
+J_B_B:JALR->BEQ[*2]  1     1        
+J_B_B:JALR->BLT[*2]  1     1        
+J_B:JAL->BEQ         289   1        
+J_B:JAL->BNE         295   1        
+J_B:JAL->BLT         251   1        
+J_B:JAL->BGE         261   1        
+J_B:JALR->BEQ        56    1        
+J_B:JALR->BNE        49    1        
+J_B:JALR->BLT        67    1        
+J_B:JALR->BGE        62    1        
+J_J:JAL->JAL         1207  1        
+J_J:JAL->JALR        111   1        
+J_J:JALR->JAL        131   1        
+J_J:JALR->JALR       222   1        
+J_R:JAL->SUB         5     1        
+J_R:JAL->SLT         1     1        
+J_R:JAL->SRA         2     1        
+J_R:JALR->SUB        2     1        
+J_R:JALR->SLT        2     1        
+J_R:JALR->SRA        4     1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable SW_Transitions_cp
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 9        0         9       100.00  
+
+
+User Defined Bins for SW_Transitions_cp
+
+
+Bins
+
+NAME          COUNT AT LEAST 
+SW_I:SW->SLTI 38    1        
+SW_LW:SW->LW  12    1        
+SW_SW:SW->SW  140   1        
+SW_J:SW->JAL  138   1        
+SW_J:SW->JALR 12    1        
+SW_B:SW->BEQ  28    1        
+SW_B:SW->BNE  38    1        
+SW_B:SW->BLT  37    1        
+SW_B:SW->BGE  50    1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable LW_Transitions_cp
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 8        0         8       100.00  
+
+
+User Defined Bins for LW_Transitions_cp
+
+
+Bins
+
+NAME          COUNT AT LEAST 
+LW_SW:LW->SW  20    1        
+LW_LW:LW->LW  24    1        
+LW_J:LW->JAL  120   1        
+LW_J:LW->JALR 20    1        
+LW_B:LW->BEQ  29    1        
+LW_B:LW->BNE  27    1        
+LW_B:LW->BLT  29    1        
+LW_B:LW->BGE  26    1        
+
+
+Group : $unit::coverage::Reset_cg
+
+===============================================================================
+Group : $unit::coverage::Reset_cg
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home/ICer/Projects/Pipelined_RISC_V/TB/coverage.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::coverage::Reset_cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 2        0         2       100.00  
+
+
+Variables for Group  $unit::coverage::Reset_cg
+
+
+VARIABLE            EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+Reset_Transition_cp 2        0         2       100.00  100  1      1        0                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable Reset_Transition_cp
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for Reset_Transition_cp
+
+
+Bins
+
+NAME   COUNT AT LEAST 
+ON_OFF 5     1        
+OFF_ON 1     1        
+
+
+Group : $unit::coverage::Memory_cg
+
+===============================================================================
+Group : $unit::coverage::Memory_cg
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Source File(s) : 
+
+/home/ICer/Projects/Pipelined_RISC_V/TB/coverage.sv
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::coverage::Memory_cg
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 258      0         258     100.00  
+Crosses   257      0         257     100.00  
+
+
+Variables for Group  $unit::coverage::Memory_cg
+
+
+VARIABLE    EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+DataAdr_cp  256      0         256     100.00  100  1      1        0                    
+MemWrite_cp 2        0         2       100.00  100  1      1        0                    
+
+
+Crosses for Group  $unit::coverage::Memory_cg
+
+
+CROSS             EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+Memory_Address_cp 257      0         257     100.00  100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable DataAdr_cp
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 256      0         256     100.00  
+
+
+User Defined Bins for DataAdr_cp
+
+
+Bins
+
+NAME           COUNT AT LEAST 
+DataAddress_00 23791 1        
+DataAddress_01 191   1        
+DataAddress_02 133   1        
+DataAddress_03 144   1        
+DataAddress_04 144   1        
+DataAddress_05 84    1        
+DataAddress_06 108   1        
+DataAddress_07 108   1        
+DataAddress_08 85    1        
+DataAddress_09 83    1        
+DataAddress_0a 84    1        
+DataAddress_0b 77    1        
+DataAddress_0c 85    1        
+DataAddress_0d 90    1        
+DataAddress_0e 66    1        
+DataAddress_0f 109   1        
+DataAddress_10 119   1        
+DataAddress_11 77    1        
+DataAddress_12 84    1        
+DataAddress_13 104   1        
+DataAddress_14 68    1        
+DataAddress_15 131   1        
+DataAddress_16 75    1        
+DataAddress_17 94    1        
+DataAddress_18 120   1        
+DataAddress_19 72    1        
+DataAddress_1a 81    1        
+DataAddress_1b 74    1        
+DataAddress_1c 66    1        
+DataAddress_1d 78    1        
+DataAddress_1e 70    1        
+DataAddress_1f 102   1        
+DataAddress_20 92    1        
+DataAddress_21 76    1        
+DataAddress_22 76    1        
+DataAddress_23 109   1        
+DataAddress_24 97    1        
+DataAddress_25 80    1        
+DataAddress_26 90    1        
+DataAddress_27 82    1        
+DataAddress_28 88    1        
+DataAddress_29 75    1        
+DataAddress_2a 95    1        
+DataAddress_2b 83    1        
+DataAddress_2c 72    1        
+DataAddress_2d 97    1        
+DataAddress_2e 71    1        
+DataAddress_2f 78    1        
+DataAddress_30 76    1        
+DataAddress_31 85    1        
+DataAddress_32 103   1        
+DataAddress_33 72    1        
+DataAddress_34 93    1        
+DataAddress_35 76    1        
+DataAddress_36 66    1        
+DataAddress_37 115   1        
+DataAddress_38 86    1        
+DataAddress_39 84    1        
+DataAddress_3a 82    1        
+DataAddress_3b 87    1        
+DataAddress_3c 99    1        
+DataAddress_3d 81    1        
+DataAddress_3e 89    1        
+DataAddress_3f 119   1        
+DataAddress_40 78    1        
+DataAddress_41 78    1        
+DataAddress_42 83    1        
+DataAddress_43 77    1        
+DataAddress_44 74    1        
+DataAddress_45 82    1        
+DataAddress_46 65    1        
+DataAddress_47 85    1        
+DataAddress_48 86    1        
+DataAddress_49 73    1        
+DataAddress_4a 80    1        
+DataAddress_4b 100   1        
+DataAddress_4c 94    1        
+DataAddress_4d 96    1        
+DataAddress_4e 89    1        
+DataAddress_4f 77    1        
+DataAddress_50 66    1        
+DataAddress_51 72    1        
+DataAddress_52 77    1        
+DataAddress_53 66    1        
+DataAddress_54 72    1        
+DataAddress_55 73    1        
+DataAddress_56 68    1        
+DataAddress_57 93    1        
+DataAddress_58 67    1        
+DataAddress_59 65    1        
+DataAddress_5a 83    1        
+DataAddress_5b 84    1        
+DataAddress_5c 80    1        
+DataAddress_5d 99    1        
+DataAddress_5e 78    1        
+DataAddress_5f 78    1        
+DataAddress_60 80    1        
+DataAddress_61 87    1        
+DataAddress_62 65    1        
+DataAddress_63 81    1        
+DataAddress_64 91    1        
+DataAddress_65 76    1        
+DataAddress_66 86    1        
+DataAddress_67 87    1        
+DataAddress_68 80    1        
+DataAddress_69 88    1        
+DataAddress_6a 78    1        
+DataAddress_6b 69    1        
+DataAddress_6c 76    1        
+DataAddress_6d 120   1        
+DataAddress_6e 96    1        
+DataAddress_6f 102   1        
+DataAddress_70 84    1        
+DataAddress_71 87    1        
+DataAddress_72 84    1        
+DataAddress_73 77    1        
+DataAddress_74 65    1        
+DataAddress_75 88    1        
+DataAddress_76 85    1        
+DataAddress_77 93    1        
+DataAddress_78 86    1        
+DataAddress_79 68    1        
+DataAddress_7a 100   1        
+DataAddress_7b 80    1        
+DataAddress_7c 82    1        
+DataAddress_7d 94    1        
+DataAddress_7e 106   1        
+DataAddress_7f 203   1        
+DataAddress_80 131   1        
+DataAddress_81 69    1        
+DataAddress_82 95    1        
+DataAddress_83 79    1        
+DataAddress_84 79    1        
+DataAddress_85 76    1        
+DataAddress_86 91    1        
+DataAddress_87 84    1        
+DataAddress_88 94    1        
+DataAddress_89 85    1        
+DataAddress_8a 93    1        
+DataAddress_8b 72    1        
+DataAddress_8c 80    1        
+DataAddress_8d 74    1        
+DataAddress_8e 67    1        
+DataAddress_8f 85    1        
+DataAddress_90 68    1        
+DataAddress_91 86    1        
+DataAddress_92 101   1        
+DataAddress_93 114   1        
+DataAddress_94 68    1        
+DataAddress_95 56    1        
+DataAddress_96 80    1        
+DataAddress_97 88    1        
+DataAddress_98 90    1        
+DataAddress_99 80    1        
+DataAddress_9a 78    1        
+DataAddress_9b 88    1        
+DataAddress_9c 87    1        
+DataAddress_9d 89    1        
+DataAddress_9e 86    1        
+DataAddress_9f 121   1        
+DataAddress_a0 79    1        
+DataAddress_a1 66    1        
+DataAddress_a2 72    1        
+DataAddress_a3 71    1        
+DataAddress_a4 85    1        
+DataAddress_a5 67    1        
+DataAddress_a6 91    1        
+DataAddress_a7 88    1        
+DataAddress_a8 94    1        
+DataAddress_a9 92    1        
+DataAddress_aa 66    1        
+DataAddress_ab 88    1        
+DataAddress_ac 95    1        
+DataAddress_ad 95    1        
+DataAddress_ae 82    1        
+DataAddress_af 62    1        
+DataAddress_b0 76    1        
+DataAddress_b1 74    1        
+DataAddress_b2 90    1        
+DataAddress_b3 61    1        
+DataAddress_b4 81    1        
+DataAddress_b5 91    1        
+DataAddress_b6 89    1        
+DataAddress_b7 113   1        
+DataAddress_b8 91    1        
+DataAddress_b9 64    1        
+DataAddress_ba 78    1        
+DataAddress_bb 93    1        
+DataAddress_bc 79    1        
+DataAddress_bd 128   1        
+DataAddress_be 100   1        
+DataAddress_bf 150   1        
+DataAddress_c0 90    1        
+DataAddress_c1 90    1        
+DataAddress_c2 80    1        
+DataAddress_c3 80    1        
+DataAddress_c4 82    1        
+DataAddress_c5 89    1        
+DataAddress_c6 81    1        
+DataAddress_c7 96    1        
+DataAddress_c8 106   1        
+DataAddress_c9 66    1        
+DataAddress_ca 76    1        
+DataAddress_cb 75    1        
+DataAddress_cc 68    1        
+DataAddress_cd 105   1        
+DataAddress_ce 100   1        
+DataAddress_cf 93    1        
+DataAddress_d0 78    1        
+DataAddress_d1 88    1        
+DataAddress_d2 79    1        
+DataAddress_d3 95    1        
+DataAddress_d4 74    1        
+DataAddress_d5 89    1        
+DataAddress_d6 96    1        
+DataAddress_d7 82    1        
+DataAddress_d8 87    1        
+DataAddress_d9 91    1        
+DataAddress_da 95    1        
+DataAddress_db 110   1        
+DataAddress_dc 107   1        
+DataAddress_dd 107   1        
+DataAddress_de 112   1        
+DataAddress_df 167   1        
+DataAddress_e0 98    1        
+DataAddress_e1 82    1        
+DataAddress_e2 97    1        
+DataAddress_e3 63    1        
+DataAddress_e4 82    1        
+DataAddress_e5 99    1        
+DataAddress_e6 78    1        
+DataAddress_e7 103   1        
+DataAddress_e8 80    1        
+DataAddress_e9 97    1        
+DataAddress_ea 138   1        
+DataAddress_eb 96    1        
+DataAddress_ec 87    1        
+DataAddress_ed 167   1        
+DataAddress_ee 123   1        
+DataAddress_ef 166   1        
+DataAddress_f0 84    1        
+DataAddress_f1 79    1        
+DataAddress_f2 92    1        
+DataAddress_f3 93    1        
+DataAddress_f4 84    1        
+DataAddress_f5 114   1        
+DataAddress_f6 121   1        
+DataAddress_f7 166   1        
+DataAddress_f8 102   1        
+DataAddress_f9 138   1        
+DataAddress_fa 156   1        
+DataAddress_fb 198   1        
+DataAddress_fc 132   1        
+DataAddress_fd 215   1        
+DataAddress_fe 213   1        
+DataAddress_ff 928   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable MemWrite_cp
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 2        0         2       100.00  
+
+
+User Defined Bins for MemWrite_cp
+
+
+Bins
+
+NAME  COUNT AT LEAST 
+read  47326 1        
+write 617   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross Memory_Address_cp
+
+
+Samples crossed: MemWrite_cp DataAdr_cp
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+TOTAL                              257      0         257     100.00          
+Automatically Generated Cross Bins 256      0         256     100.00          
+User Defined Cross Bins            1        0         1       100.00          
+
+
+Automatically Generated Cross Bins for Memory_Address_cp
+
+
+Bins
+
+MemWrite_cp DataAdr_cp     COUNT AT LEAST 
+read        DataAddress_00 23787 1        
+read        DataAddress_01 190   1        
+read        DataAddress_02 132   1        
+read        DataAddress_03 143   1        
+read        DataAddress_04 144   1        
+read        DataAddress_05 81    1        
+read        DataAddress_06 106   1        
+read        DataAddress_07 107   1        
+read        DataAddress_08 81    1        
+read        DataAddress_09 80    1        
+read        DataAddress_0a 84    1        
+read        DataAddress_0b 76    1        
+read        DataAddress_0c 84    1        
+read        DataAddress_0d 89    1        
+read        DataAddress_0e 66    1        
+read        DataAddress_0f 109   1        
+read        DataAddress_10 115   1        
+read        DataAddress_11 77    1        
+read        DataAddress_12 82    1        
+read        DataAddress_13 100   1        
+read        DataAddress_14 67    1        
+read        DataAddress_15 130   1        
+read        DataAddress_16 74    1        
+read        DataAddress_17 89    1        
+read        DataAddress_18 118   1        
+read        DataAddress_19 71    1        
+read        DataAddress_1a 77    1        
+read        DataAddress_1b 70    1        
+read        DataAddress_1c 65    1        
+read        DataAddress_1d 71    1        
+read        DataAddress_1e 70    1        
+read        DataAddress_1f 102   1        
+read        DataAddress_20 92    1        
+read        DataAddress_21 75    1        
+read        DataAddress_22 73    1        
+read        DataAddress_23 108   1        
+read        DataAddress_24 95    1        
+read        DataAddress_25 79    1        
+read        DataAddress_26 89    1        
+read        DataAddress_27 80    1        
+read        DataAddress_28 86    1        
+read        DataAddress_29 74    1        
+read        DataAddress_2a 90    1        
+read        DataAddress_2b 80    1        
+read        DataAddress_2c 67    1        
+read        DataAddress_2d 93    1        
+read        DataAddress_2e 71    1        
+read        DataAddress_2f 76    1        
+read        DataAddress_30 74    1        
+read        DataAddress_31 82    1        
+read        DataAddress_32 97    1        
+read        DataAddress_33 70    1        
+read        DataAddress_34 93    1        
+read        DataAddress_35 71    1        
+read        DataAddress_36 62    1        
+read        DataAddress_37 110   1        
+read        DataAddress_38 85    1        
+read        DataAddress_39 82    1        
+read        DataAddress_3a 81    1        
+read        DataAddress_3b 86    1        
+read        DataAddress_3c 92    1        
+read        DataAddress_3d 78    1        
+read        DataAddress_3e 87    1        
+read        DataAddress_3f 114   1        
+read        DataAddress_40 75    1        
+read        DataAddress_41 74    1        
+read        DataAddress_42 78    1        
+read        DataAddress_43 76    1        
+read        DataAddress_44 70    1        
+read        DataAddress_45 80    1        
+read        DataAddress_46 64    1        
+read        DataAddress_47 84    1        
+read        DataAddress_48 82    1        
+read        DataAddress_49 69    1        
+read        DataAddress_4a 78    1        
+read        DataAddress_4b 99    1        
+read        DataAddress_4c 91    1        
+read        DataAddress_4d 94    1        
+read        DataAddress_4e 85    1        
+read        DataAddress_4f 75    1        
+read        DataAddress_50 64    1        
+read        DataAddress_51 69    1        
+read        DataAddress_52 77    1        
+read        DataAddress_53 61    1        
+read        DataAddress_54 69    1        
+read        DataAddress_55 69    1        
+read        DataAddress_56 67    1        
+read        DataAddress_57 92    1        
+read        DataAddress_58 66    1        
+read        DataAddress_59 63    1        
+read        DataAddress_5a 81    1        
+read        DataAddress_5b 80    1        
+read        DataAddress_5c 77    1        
+read        DataAddress_5d 99    1        
+read        DataAddress_5e 76    1        
+read        DataAddress_5f 75    1        
+read        DataAddress_60 77    1        
+read        DataAddress_61 84    1        
+read        DataAddress_62 63    1        
+read        DataAddress_63 76    1        
+read        DataAddress_64 90    1        
+read        DataAddress_65 74    1        
+read        DataAddress_66 84    1        
+read        DataAddress_67 86    1        
+read        DataAddress_68 75    1        
+read        DataAddress_69 86    1        
+read        DataAddress_6a 76    1        
+read        DataAddress_6b 67    1        
+read        DataAddress_6c 76    1        
+read        DataAddress_6d 117   1        
+read        DataAddress_6e 91    1        
+read        DataAddress_6f 100   1        
+read        DataAddress_70 81    1        
+read        DataAddress_71 85    1        
+read        DataAddress_72 82    1        
+read        DataAddress_73 76    1        
+read        DataAddress_74 64    1        
+read        DataAddress_75 85    1        
+read        DataAddress_76 83    1        
+read        DataAddress_77 93    1        
+read        DataAddress_78 84    1        
+read        DataAddress_79 64    1        
+read        DataAddress_7a 92    1        
+read        DataAddress_7b 78    1        
+read        DataAddress_7c 82    1        
+read        DataAddress_7d 93    1        
+read        DataAddress_7e 104   1        
+read        DataAddress_7f 202   1        
+read        DataAddress_80 126   1        
+read        DataAddress_81 67    1        
+read        DataAddress_82 92    1        
+read        DataAddress_83 75    1        
+read        DataAddress_84 76    1        
+read        DataAddress_85 74    1        
+read        DataAddress_86 88    1        
+read        DataAddress_87 82    1        
+read        DataAddress_88 93    1        
+read        DataAddress_89 82    1        
+read        DataAddress_8a 92    1        
+read        DataAddress_8b 69    1        
+read        DataAddress_8c 78    1        
+read        DataAddress_8d 71    1        
+read        DataAddress_8e 63    1        
+read        DataAddress_8f 82    1        
+read        DataAddress_90 65    1        
+read        DataAddress_91 85    1        
+read        DataAddress_92 100   1        
+read        DataAddress_93 111   1        
+read        DataAddress_94 67    1        
+read        DataAddress_95 56    1        
+read        DataAddress_96 78    1        
+read        DataAddress_97 86    1        
+read        DataAddress_98 84    1        
+read        DataAddress_99 79    1        
+read        DataAddress_9a 75    1        
+read        DataAddress_9b 85    1        
+read        DataAddress_9c 83    1        
+read        DataAddress_9d 87    1        
+read        DataAddress_9e 85    1        
+read        DataAddress_9f 118   1        
+read        DataAddress_a0 77    1        
+read        DataAddress_a1 66    1        
+read        DataAddress_a2 69    1        
+read        DataAddress_a3 71    1        
+read        DataAddress_a4 80    1        
+read        DataAddress_a5 64    1        
+read        DataAddress_a6 89    1        
+read        DataAddress_a7 86    1        
+read        DataAddress_a8 93    1        
+read        DataAddress_a9 91    1        
+read        DataAddress_aa 65    1        
+read        DataAddress_ab 83    1        
+read        DataAddress_ac 92    1        
+read        DataAddress_ad 90    1        
+read        DataAddress_ae 77    1        
+read        DataAddress_af 61    1        
+read        DataAddress_b0 72    1        
+read        DataAddress_b1 73    1        
+read        DataAddress_b2 90    1        
+read        DataAddress_b3 61    1        
+read        DataAddress_b4 81    1        
+read        DataAddress_b5 87    1        
+read        DataAddress_b6 88    1        
+read        DataAddress_b7 112   1        
+read        DataAddress_b8 88    1        
+read        DataAddress_b9 64    1        
+read        DataAddress_ba 73    1        
+read        DataAddress_bb 89    1        
+read        DataAddress_bc 79    1        
+read        DataAddress_bd 126   1        
+read        DataAddress_be 96    1        
+read        DataAddress_bf 147   1        
+read        DataAddress_c0 86    1        
+read        DataAddress_c1 87    1        
+read        DataAddress_c2 78    1        
+read        DataAddress_c3 78    1        
+read        DataAddress_c4 80    1        
+read        DataAddress_c5 84    1        
+read        DataAddress_c6 81    1        
+read        DataAddress_c7 95    1        
+read        DataAddress_c8 103   1        
+read        DataAddress_c9 65    1        
+read        DataAddress_ca 71    1        
+read        DataAddress_cb 72    1        
+read        DataAddress_cc 68    1        
+read        DataAddress_cd 102   1        
+read        DataAddress_ce 99    1        
+read        DataAddress_cf 91    1        
+read        DataAddress_d0 72    1        
+read        DataAddress_d1 88    1        
+read        DataAddress_d2 76    1        
+read        DataAddress_d3 91    1        
+read        DataAddress_d4 70    1        
+read        DataAddress_d5 89    1        
+read        DataAddress_d6 93    1        
+read        DataAddress_d7 78    1        
+read        DataAddress_d8 84    1        
+read        DataAddress_d9 87    1        
+read        DataAddress_da 90    1        
+read        DataAddress_db 102   1        
+read        DataAddress_dc 105   1        
+read        DataAddress_dd 105   1        
+read        DataAddress_de 110   1        
+read        DataAddress_df 165   1        
+read        DataAddress_e0 93    1        
+read        DataAddress_e1 78    1        
+read        DataAddress_e2 94    1        
+read        DataAddress_e3 63    1        
+read        DataAddress_e4 81    1        
+read        DataAddress_e5 97    1        
+read        DataAddress_e6 76    1        
+read        DataAddress_e7 101   1        
+read        DataAddress_e8 75    1        
+read        DataAddress_e9 96    1        
+read        DataAddress_ea 136   1        
+read        DataAddress_eb 91    1        
+read        DataAddress_ec 85    1        
+read        DataAddress_ed 165   1        
+read        DataAddress_ee 120   1        
+read        DataAddress_ef 165   1        
+read        DataAddress_f0 82    1        
+read        DataAddress_f1 77    1        
+read        DataAddress_f2 89    1        
+read        DataAddress_f3 90    1        
+read        DataAddress_f4 83    1        
+read        DataAddress_f5 112   1        
+read        DataAddress_f6 118   1        
+read        DataAddress_f7 162   1        
+read        DataAddress_f8 99    1        
+read        DataAddress_f9 136   1        
+read        DataAddress_fa 152   1        
+read        DataAddress_fb 197   1        
+read        DataAddress_fc 129   1        
+read        DataAddress_fd 212   1        
+read        DataAddress_fe 208   1        
+read        DataAddress_ff 927   1        
+
+
+User Defined Cross Bins for Memory_Address_cp
+
+
+Bins
+
+NAME            COUNT AT LEAST 
+write_addresses 617   1        
+
+

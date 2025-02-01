@@ -1,0 +1,22 @@
+Dashboard
+
+Date: Fri Jan 31 04:17:00 2025
+
+User: ICer
+
+Version: O-2018.09-1
+Command line: urg -dir rand_test.vdb -dir imm_test.vdb -dir branch_test.vdb -dir jump_test.vdb -format both -dbname MERGE_COV -report Coverage_Report 
+
+Number of tests: 4
+
+-------------------------------------------------------------------------------
+Total Coverage Summary 
+SCORE  GROUP  
+100.00 100.00 
+
+
+-------------------------------------------------------------------------------
+Total Groups Coverage Summary 
+SCORE  WEIGHT 
+100.00 1      
+

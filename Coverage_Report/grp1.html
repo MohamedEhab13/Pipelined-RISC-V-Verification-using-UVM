@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Group :: $unit::coverage::Instruction_cg</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<link type="text/css" rel="stylesheet" href="css/.breadcrumb.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript" src="js/.breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Group : $unit::coverage::Instruction_cg</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | hierarchy | modlist | <a href="groups.html" ><b>groups</b></a> | <a href="tests.html" ><b>tests</b></a> | asserts</div>
+
+</div>
+<div class="ui-layout-west">
+<div>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Group : <a href="#"  onclick="showContent('$unit::coverage::Instruction_cg')">$unit::coverage::Instruction_cg</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td><b>SCORE</b></td><td>WEIGHT</td><td>GOAL</td><td>AT LEAST</td><td>AUTO BIN MAX</td><td>PRINT MISSING</td></tr><tr>
+<td class="s10 cl rt">100.00</td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">100   </td>
+<td class="wht cl rt">1     </td>
+<td class="wht cl rt">64    </td>
+<td class="wht cl rt">64    </td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="javascript:void(0);"  onclick="openSrcFile('/home/ICer/Projects/Pipelined_RISC_V/TB/coverage.sv')">/home/ICer/Projects/Pipelined_RISC_V/TB/coverage.sv</a><br clear=all>
+<br clear=all>
+</div>
+<hr>
+<br clear=all>
+<span class=repname>Summary for Group   $unit::coverage::Instruction_cg
+</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td><a href="#var_tbl_$unit::coverage::Instruction_cg" >Variables</a></td>
+<td class="rt">154</td>
+<td class="rt">0</td>
+<td class="rt">154</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class="repname" id="var_tbl_$unit::coverage::Instruction_cg">Variables for Group  $unit::coverage::Instruction_cg
+</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">VARIABLE</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td><td>GOAL</td><td>WEIGHT</td><td>AT LEAST</td><td>AUTO BIN MAX</td><td>COMMENT</td></tr><tr class="s10">
+<td><a href="#inst_tag_$unit::coverage::Instruction_cg.Instructions_cp"  onclick="checkLink(this)" target="detailFrame">Instructions_cp</a></td>
+<td class="rt">28</td>
+<td class="rt">0</td>
+<td class="rt">28</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_$unit::coverage::Instruction_cg.Imm_Transitions_cp"  onclick="checkLink(this)" target="detailFrame">Imm_Transitions_cp</a></td>
+<td class="rt">20</td>
+<td class="rt">0</td>
+<td class="rt">20</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_$unit::coverage::Instruction_cg.Branch_Transitions_cp"  onclick="checkLink(this)" target="detailFrame">Branch_Transitions_cp</a></td>
+<td class="rt">60</td>
+<td class="rt">0</td>
+<td class="rt">60</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_$unit::coverage::Instruction_cg.Jump_Transitions_cp"  onclick="checkLink(this)" target="detailFrame">Jump_Transitions_cp</a></td>
+<td class="rt">29</td>
+<td class="rt">0</td>
+<td class="rt">29</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_$unit::coverage::Instruction_cg.SW_Transitions_cp"  onclick="checkLink(this)" target="detailFrame">SW_Transitions_cp</a></td>
+<td class="rt">9</td>
+<td class="rt">0</td>
+<td class="rt">9</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr><tr class="s10">
+<td><a href="#inst_tag_$unit::coverage::Instruction_cg.LW_Transitions_cp"  onclick="checkLink(this)" target="detailFrame">LW_Transitions_cp</a></td>
+<td class="rt">8</td>
+<td class="rt">0</td>
+<td class="rt">8</td>
+<td class="rt">100.00</td>
+<td class="rt">100</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+<td class="rt">0</td>
+<td></td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div>
+<br clear=all>
+<a name="inst_tag_$unit::coverage::Instruction_cg.Instructions_cp"></a><span class="repname" id="inst_tag_$unit::coverage::Instruction_cg.Instructions_cp">Summary for Variable Instructions_cp</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">28</td>
+<td class="rt">0</td>
+<td class="rt">28</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for Instructions_cp</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Excluded/Illegal bins</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td class="alfsrt">STATUS</td></tr><tr class="wht">
+<td>unknow</td>
+<td class="rt">0</td>
+<td>Illegal</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Covered bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td>Reset_RESET</td>
+<td class="rt">13</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>J_Type_JAL</td>
+<td class="rt">5629</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>S_Type_SW</td>
+<td class="rt">916</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>U_Type_LUI</td>
+<td class="rt">5532</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>U_Type_AUIPC</td>
+<td class="rt">5189</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>B_Type_BEQ</td>
+<td class="rt">1766</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>B_Type_BNE</td>
+<td class="rt">1710</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>B_Type_BLT</td>
+<td class="rt">1719</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>B_Type_BGE</td>
+<td class="rt">1851</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>R_Type_ADD</td>
+<td class="rt">1297</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>R_Type_SUB</td>
+<td class="rt">1286</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>R_Type_SLL</td>
+<td class="rt">1196</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>R_Type_SLT</td>
+<td class="rt">1217</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>R_Type_XOR</td>
+<td class="rt">1305</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>R_Type_SRL</td>
+<td class="rt">1310</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>R_Type_SRA</td>
+<td class="rt">1270</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>R_Type_OR</td>
+<td class="rt">1211</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>R_Type_AND</td>
+<td class="rt">3</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>I_Type_LW</td>
+<td class="rt">727</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>I_Type_ADDI</td>
+<td class="rt">2736</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>I_Type_SLLI</td>
+<td class="rt">18</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>I_Type_SLTI</td>
+<td class="rt">2752</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>I_Type_XORI</td>
+<td class="rt">2801</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>I_Type_SRLI</td>
+<td class="rt">18</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>I_Type_SRAI</td>
+<td class="rt">18</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>I_Type_ORI</td>
+<td class="rt">2703</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>I_Type_ANDI</td>
+<td class="rt">675</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td>I_Type_JALR</td>
+<td class="rt">1075</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_$unit::coverage::Instruction_cg.Imm_Transitions_cp"></a><span class="repname" id="inst_tag_$unit::coverage::Instruction_cg.Imm_Transitions_cp">Summary for Variable Imm_Transitions_cp</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">20</td>
+<td class="rt">0</td>
+<td class="rt">20</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for Imm_Transitions_cp</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td nowrap>I_JR_JR:ADDI->JALR[*2]</td>
+<td class="rt">39</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_JR_JR:SLTI->JALR[*2]</td>
+<td class="rt">22</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_J_J:ADDI->JAL[*2]</td>
+<td class="rt">53</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_J_J:SLTI->JAL[*2]</td>
+<td class="rt">59</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_J:ADDI->JAL</td>
+<td class="rt">157</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_J:ADDI->JALR</td>
+<td class="rt">54</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_J:SLTI->JAL</td>
+<td class="rt">153</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_J:SLTI->JALR</td>
+<td class="rt">39</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_LW_LW:SLTI->LW[*2]</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_LW:SLTI->LW</td>
+<td class="rt">36</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_SW_SW:SLTI->SW[*2]</td>
+<td class="rt">23</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_SW:SLTI->SW</td>
+<td class="rt">38</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_B:SLTI->BEQ</td>
+<td class="rt">31</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_B:SLTI->BNE</td>
+<td class="rt">33</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_B:SLTI->BLT</td>
+<td class="rt">29</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_B:SLTI->BGE</td>
+<td class="rt">38</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_R:SLTI->SLL</td>
+<td class="rt">236</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_R:SLTI->SLT</td>
+<td class="rt">236</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_R:SRLI->SLL</td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>I_R:SRLI->SLT</td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_$unit::coverage::Instruction_cg.Branch_Transitions_cp"></a><span class="repname" id="inst_tag_$unit::coverage::Instruction_cg.Branch_Transitions_cp">Summary for Variable Branch_Transitions_cp</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">60</td>
+<td class="rt">0</td>
+<td class="rt">60</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for Branch_Transitions_cp</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td nowrap>B_LW_LW:BEQ->LW[*2]</td>
+<td class="rt">3</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_LW_LW:BNE->LW[*2]</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_LW_LW:BLT->LW[*2]</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_LW_LW:BGE->LW[*2]</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_LW:BEQ->LW</td>
+<td class="rt">41</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_LW:BNE->LW</td>
+<td class="rt">30</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_LW:BLT->LW</td>
+<td class="rt">29</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_LW:BGE->LW</td>
+<td class="rt">35</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_SW_SW:BEQ->SW[*2]</td>
+<td class="rt">3</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_SW_SW:BNE->SW[*2]</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_SW_SW:BLT->SW[*2]</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_SW_SW:BGE->SW[*2]</td>
+<td class="rt">8</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_SW:BEQ->SW</td>
+<td class="rt">30</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_SW:BNE->SW</td>
+<td class="rt">31</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_SW:BLT->SW</td>
+<td class="rt">32</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_SW:BGE->SW</td>
+<td class="rt">41</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_JR_JR:BEQ->JALR[*2]</td>
+<td class="rt">25</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_JR_JR:BNE->JALR[*2]</td>
+<td class="rt">24</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_JR_JR:BLT->JALR[*2]</td>
+<td class="rt">26</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_JR_JR:BGE->JALR[*2]</td>
+<td class="rt">34</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_J_J:BEQ->JAL</td>
+<td class="rt">270</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_J_J:BNE->JAL</td>
+<td class="rt">262</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_J_J:BLT->JAL</td>
+<td class="rt">250</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_J_J:BGE->JAL</td>
+<td class="rt">305</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_J:BEQ->JAL</td>
+<td class="rt">270</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_J:BEQ->JALR</td>
+<td class="rt">62</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_J:BNE->JAL</td>
+<td class="rt">262</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_J:BNE->JALR</td>
+<td class="rt">49</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_J:BLT->JAL</td>
+<td class="rt">250</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_J:BLT->JALR</td>
+<td class="rt">57</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_J:BGE->JAL</td>
+<td class="rt">305</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_J:BGE->JALR</td>
+<td class="rt">66</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_B:BEQ->BEQ</td>
+<td class="rt">48</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_B:BEQ->BNE</td>
+<td class="rt">49</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_B:BEQ->BLT</td>
+<td class="rt">47</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_B:BEQ->BGE</td>
+<td class="rt">48</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_B:BNE->BEQ</td>
+<td class="rt">40</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_B:BNE->BNE</td>
+<td class="rt">49</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_B:BNE->BLT</td>
+<td class="rt">46</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_B:BNE->BGE</td>
+<td class="rt">53</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_B:BLT->BEQ</td>
+<td class="rt">47</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_B:BLT->BNE</td>
+<td class="rt">47</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_B:BLT->BLT</td>
+<td class="rt">38</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_B:BLT->BGE</td>
+<td class="rt">60</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_B:BGE->BEQ</td>
+<td class="rt">40</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_B:BGE->BNE</td>
+<td class="rt">51</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_B:BGE->BLT</td>
+<td class="rt">56</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_B:BGE->BGE</td>
+<td class="rt">60</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_R:BEQ->ADD</td>
+<td class="rt">57</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_R:BEQ->SLT</td>
+<td class="rt">69</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_R:BEQ->SRA</td>
+<td class="rt">63</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_R:BNE->ADD</td>
+<td class="rt">55</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_R:BNE->SLT</td>
+<td class="rt">47</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_R:BNE->SRA</td>
+<td class="rt">58</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_R:BLT->ADD</td>
+<td class="rt">61</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_R:BLT->SLT</td>
+<td class="rt">60</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_R:BLT->SRA</td>
+<td class="rt">79</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_R:BGE->ADD</td>
+<td class="rt">70</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_R:BGE->SLT</td>
+<td class="rt">52</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>B_R:BGE->SRA</td>
+<td class="rt">80</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_$unit::coverage::Instruction_cg.Jump_Transitions_cp"></a><span class="repname" id="inst_tag_$unit::coverage::Instruction_cg.Jump_Transitions_cp">Summary for Variable Jump_Transitions_cp</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">29</td>
+<td class="rt">0</td>
+<td class="rt">29</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for Jump_Transitions_cp</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td nowrap>J_LW_LW:JAL->LW[*2]</td>
+<td class="rt">6</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_LW:JAL->LW</td>
+<td class="rt">117</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_LW:JALR->LW</td>
+<td class="rt">13</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_SW_SW:JAL->SW[*2]</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_SW_SW:JALR->SW[*2]</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_SW:JAL->SW</td>
+<td class="rt">125</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_SW:JALR->SW</td>
+<td class="rt">18</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_B_B:JAL->BEQ[*2]</td>
+<td class="rt">14</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_B_B:JAL->BLT[*2]</td>
+<td class="rt">13</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_B_B:JALR->BEQ[*2]</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_B_B:JALR->BLT[*2]</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_B:JAL->BEQ</td>
+<td class="rt">289</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_B:JAL->BNE</td>
+<td class="rt">295</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_B:JAL->BLT</td>
+<td class="rt">251</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_B:JAL->BGE</td>
+<td class="rt">261</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_B:JALR->BEQ</td>
+<td class="rt">56</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_B:JALR->BNE</td>
+<td class="rt">49</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_B:JALR->BLT</td>
+<td class="rt">67</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_B:JALR->BGE</td>
+<td class="rt">62</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_J:JAL->JAL</td>
+<td class="rt">1207</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_J:JAL->JALR</td>
+<td class="rt">111</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_J:JALR->JAL</td>
+<td class="rt">131</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_J:JALR->JALR</td>
+<td class="rt">222</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_R:JAL->SUB</td>
+<td class="rt">5</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_R:JAL->SLT</td>
+<td class="rt">1</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_R:JAL->SRA</td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_R:JALR->SUB</td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_R:JALR->SLT</td>
+<td class="rt">2</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>J_R:JALR->SRA</td>
+<td class="rt">4</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_$unit::coverage::Instruction_cg.SW_Transitions_cp"></a><span class="repname" id="inst_tag_$unit::coverage::Instruction_cg.SW_Transitions_cp">Summary for Variable SW_Transitions_cp</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">9</td>
+<td class="rt">0</td>
+<td class="rt">9</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for SW_Transitions_cp</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td nowrap>SW_I:SW->SLTI</td>
+<td class="rt">38</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>SW_LW:SW->LW</td>
+<td class="rt">12</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>SW_SW:SW->SW</td>
+<td class="rt">140</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>SW_J:SW->JAL</td>
+<td class="rt">138</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>SW_J:SW->JALR</td>
+<td class="rt">12</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>SW_B:SW->BEQ</td>
+<td class="rt">28</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>SW_B:SW->BNE</td>
+<td class="rt">38</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>SW_B:SW->BLT</td>
+<td class="rt">37</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>SW_B:SW->BGE</td>
+<td class="rt">50</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+<hr>
+<br clear=all>
+<a name="inst_tag_$unit::coverage::Instruction_cg.LW_Transitions_cp"></a><span class="repname" id="inst_tag_$unit::coverage::Instruction_cg.LW_Transitions_cp">Summary for Variable LW_Transitions_cp</span>
+<br clear=all>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">CATEGORY</td><td>EXPECTED</td><td>UNCOVERED</td><td>COVERED</td><td>PERCENT</td></tr><tr class="s10">
+<td>User Defined Bins</td>
+<td class="rt">8</td>
+<td class="rt">0</td>
+<td class="rt">8</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>User Defined Bins for LW_Transitions_cp</span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Bins</span>
+<br clear=all>
+<table align=left class="sortable">
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>COUNT</td><td>AT LEAST</td></tr><tr class="s10">
+<td nowrap>LW_SW:LW->SW</td>
+<td class="rt">20</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>LW_LW:LW->LW</td>
+<td class="rt">24</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>LW_J:LW->JAL</td>
+<td class="rt">120</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>LW_J:LW->JALR</td>
+<td class="rt">20</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>LW_B:LW->BEQ</td>
+<td class="rt">29</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>LW_B:LW->BNE</td>
+<td class="rt">27</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>LW_B:LW->BLT</td>
+<td class="rt">29</td>
+<td class="rt">1</td>
+</tr><tr class="s10">
+<td nowrap>LW_B:LW->BGE</td>
+<td class="rt">26</td>
+<td class="rt">1</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul>
+    <li>
+      <a href="#inst_tag_$unit::coverage::Instruction_cg.Instructions_cp">Variable : Instructions_cp</a>    </li>
+    <li>
+      <a href="#inst_tag_$unit::coverage::Instruction_cg.Imm_Transitions_cp">Variable : Imm_Transitions_cp</a>    </li>
+    <li>
+      <a href="#inst_tag_$unit::coverage::Instruction_cg.Branch_Transitions_cp">Variable : Branch_Transitions_cp</a>    </li>
+    <li>
+      <a href="#inst_tag_$unit::coverage::Instruction_cg.Jump_Transitions_cp">Variable : Jump_Transitions_cp</a>    </li>
+    <li>
+      <a href="#inst_tag_$unit::coverage::Instruction_cg.SW_Transitions_cp">Variable : SW_Transitions_cp</a>    </li>
+    <li>
+      <a href="#inst_tag_$unit::coverage::Instruction_cg.LW_Transitions_cp">Variable : LW_Transitions_cp</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>

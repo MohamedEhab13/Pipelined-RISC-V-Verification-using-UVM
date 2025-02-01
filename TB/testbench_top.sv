@@ -1,7 +1,5 @@
 `timescale 1ns/1ns
 `include "uvm_macros.svh"
-`include "risc_pkg.sv"
-`include "interface.sv"
 
 
   module tb_top;
@@ -44,7 +42,7 @@
     uvm_config_db #(string)::set(null,"*", "blk_hdl_path", blk_hdl_path);
     uvm_config_db #(string)::set(null,"*", "mem_hdl_path", mem_hdl_path);
     uvm_config_db #(string)::set(null,"*", "reg_hdl_path", reg_hdl_path);
-    run_test("test");
+    run_test();
   end
     
   initial 

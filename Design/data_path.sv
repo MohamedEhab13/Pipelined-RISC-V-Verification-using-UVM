@@ -24,13 +24,14 @@ module datapath(input logic clk, reset,
 	logic [31:0] ImmExtD, ImmExtE;
 	logic [31:0] SrcAEfor, SrcAE, SrcBE, RD1D, RD2D, RD1E, RD2E;
 	logic [31:0] ResultW;
+    logic        PCJalSrcM ;
 	
 	logic [4:0] RdD; // destination register address
 
 	
 	// Fetch Stage
 	
-	mux2 jal_r(PCTargetE, ALUResultE, PCJalSrcE, BranJumpTargetE);
+    mux2 jal_r(PCTargetE, ALUResultE, PCJalSrcM, BranJumpTargetE);
 	mux2 pcmux(PCPlus4F, BranJumpTargetE, PCSrcE, PCNextF);
 	flopenr IF(clk, reset, ~StallF, PCNextF, PCF);
 	adder pcadd4(PCF, 32'd4, PCPlus4F);
@@ -38,7 +39,7 @@ module datapath(input logic clk, reset,
 		
 	// Instruction Fetch - Decode Pipeline Register	
 	
-	IF_ID pipreg0 (clk, reset, FlushD, ~StallD, InstrF, PCF, PCPlus4F, InstrD, PCD, PCPlus4D);
+    IF_ID pipreg0 (clk, reset, FlushD, ~StallD, InstrF, PCF, PCPlus4F, InstrD, PCD, PCPlus4D);
 	assign Rs1D = InstrD[19:15];
 	assign Rs2D = InstrD[24:20];		
 	regfile rf (clk, RegWriteW, Rs1D, Rs2D, RdW, ResultW, RD1D, RD2D);	
@@ -58,7 +59,7 @@ module datapath(input logic clk, reset,
 	
 		
 	// Execute - Memory Access Pipeline Register
-	IEx_IMem pipreg2 (clk, reset, ALUResultE, WriteDataE, RdE, PCPlus4E, ALUResultM, WriteDataM, RdM, PCPlus4M);
+    IEx_IMem pipreg2 (clk, reset, PCJalSrcE, ALUResultE, WriteDataE, RdE, PCPlus4E, ALUResultM, WriteDataM, RdM, PCPlus4M, PCJalSrcM);
 	
 		
 	// Memory - Register Write Back Stage

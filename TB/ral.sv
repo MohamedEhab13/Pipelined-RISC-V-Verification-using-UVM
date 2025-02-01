@@ -94,5 +94,12 @@ class ral_model extends uvm_reg_block;
 
     end
   endfunction
+  
+  task initialize;
+    uvm_status_e status;
+    for (int i=0; i <256; i++) this.dmem.write(status, i, 0, UVM_BACKDOOR);
+    for (int i=0; i <32; i++ ) this.regs[i].write(status, 0, UVM_BACKDOOR);
+  endtask
+ 
 
 endclass

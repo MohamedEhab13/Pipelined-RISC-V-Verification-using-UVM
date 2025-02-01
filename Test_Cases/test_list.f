@@ -1,0 +1,4 @@
+rand_test
+imm_test
+branch_test
+jump_test

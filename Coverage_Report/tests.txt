@@ -1,0 +1,15 @@
+Tests
+
+Total Coverage Summary 
+SCORE  GROUP  
+100.00 100.00 
+
+
+Total tests in report: 4
+-------------------------------------------------------------------------------
+Data from the following tests was used to generate this report
+rand_test/test   
+imm_test/test    
+branch_test/test 
+jump_test/test   
+

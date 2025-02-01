@@ -37,7 +37,7 @@ class monitor extends uvm_monitor ;
          monitor_item.DataAdrM   = monitor_intf.DataAdrM   ;
          monitor_item.MemWriteM  = monitor_intf.MemWriteM  ;	
          monitor_item.ReadDataM  = monitor_intf.ReadDataM  ;
-        // `uvm_info(get_type_name(), $sformatf("Monitor item: %s", monitor_item.sprint()), UVM_LOW)
+      #1 ;
          monitor_ap.write(monitor_item) ;
     end 
     

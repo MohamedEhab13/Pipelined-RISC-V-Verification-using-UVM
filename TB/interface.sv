@@ -10,5 +10,6 @@ interface intf (input logic clk) ;
   logic [31:0] ReadDataM  ;
   logic        MemWriteM  ; 
   instr_type   inst_type  ;
+  
 
 endinterface 
